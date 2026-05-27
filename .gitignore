@@ -1,0 +1,43 @@
+# Maven
+target/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Logs
+*.log
+logs/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and local overrides
+.env
+*.env.local
+application-local.properties
+application-*.local.properties
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
